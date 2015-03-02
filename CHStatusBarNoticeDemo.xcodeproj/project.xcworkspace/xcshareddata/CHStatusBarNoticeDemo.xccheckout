@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86AB1ED2-0C6F-4F91-9051-E8AB56B1F5E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CHStatusBarNoticeDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4A193B3B8840C54C83CC56A7231A27091863950B</key>
+		<string>https://github.com/JiaoLiu/CHStatusBarNoticeDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CHStatusBarNoticeDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4A193B3B8840C54C83CC56A7231A27091863950B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JiaoLiu/CHStatusBarNoticeDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4A193B3B8840C54C83CC56A7231A27091863950B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A193B3B8840C54C83CC56A7231A27091863950B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CHStatusBarNoticeDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
