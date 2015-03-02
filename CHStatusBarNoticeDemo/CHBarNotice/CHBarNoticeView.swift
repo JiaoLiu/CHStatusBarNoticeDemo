@@ -8,6 +8,8 @@
 
 import UIKit
 
+@objc(CHBarNoticeViewDelegate)
+
 protocol CHBarNoticeViewDelegate
 {
     func openViewWithTag(tag : Int)
