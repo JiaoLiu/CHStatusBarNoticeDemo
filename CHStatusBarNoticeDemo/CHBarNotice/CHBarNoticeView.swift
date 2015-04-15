@@ -23,26 +23,15 @@ class CHBarNoticeView: UIView {
     
     // MARK: - Singleton
     class var sharedView: CHBarNoticeView {
+        struct Inner
+        {
+            static var instance : CHBarNoticeView? = nil
+            static var token    : dispatch_once_t = 0
+        }
         dispatch_once(&Inner.token, { () -> Void in
             Inner.instance = CHBarNoticeView()
         })
         return Inner.instance!
-    }
-    struct Inner {
-        static var instance : CHBarNoticeView?
-        static var token    : dispatch_once_t = 0
-    }
-    
-    // MARK: - Init
-    override init() {
-        super.init(frame: CGRectMake(0, 0, getStatusBarWidth(), getStatusBarHeight()))
-        self.backgroundColor = UIColor.clearColor()
-        let tapGes = UITapGestureRecognizer(target: self, action: "openView")
-        self.addGestureRecognizer(tapGes)
-    }
-
-    required init(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
     
     // MARK: - Method
